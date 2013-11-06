@@ -1,7 +1,7 @@
 {
   "name": "grunt-rewrite",
   "description": "A Grunt plugin to edit & replace file contents.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/JamieMason/grunt-rewrite",
   "author": {
     "name": "Jamie Mason, @fold_left",
