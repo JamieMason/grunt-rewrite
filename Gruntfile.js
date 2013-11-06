@@ -23,7 +23,7 @@ module.exports = function(grunt) {
 
     rewrite: {
       quotes: {
-        src: ['misc/**/*.js'],
+        src: 'README.md',
         editor: function(src) {
           return src.toUpperCase();
         }
