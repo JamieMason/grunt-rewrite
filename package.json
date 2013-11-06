@@ -1,0 +1,44 @@
+{
+  "name": "grunt-rewrite",
+  "description": "A Grunt plugin to edit & replace file contents.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/JamieMason/grunt-rewrite",
+  "author": {
+    "name": "Jamie Mason, @fold_left",
+    "email": "siunmaru@gmail.com",
+    "url": "https://github.com/JamieMason"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JamieMason/grunt-rewrite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JamieMason/grunt-rewrite/issues"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://github.com/JamieMason/grunt-rewrite/blob/master/LICENSE-MIT"
+  }],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-jasmine-node": "~0.1.0",
+    "jasmine-expect": "~1.21.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
