@@ -44,6 +44,10 @@ module.exports = {
 
       subTask.src.forEach(function(filePath) {
 
+        if (!grunt.file.isFile(filePath)) {
+          return grunt.log.write('skipped "' + filePath + '" as is not a file');
+        }
+
         var original = grunt.file.read(filePath);
         var rewritten = subTask.editor(original, filePath);
 
